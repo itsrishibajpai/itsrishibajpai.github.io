@@ -1755,7 +1755,13 @@ span.smalltitle{
 }
 
 @media screen and (max-width: 475px) {
-    
+    #hero{
+        border-radius: 30px;
+    }
+    .timeline{
+        border-radius: 30px;
+    }
+
     /* reset shapes */
     .tube{
         width: 150px;
@@ -1805,7 +1811,7 @@ span.smalltitle{
     }
     .blue-sphere{
         width: 300px;
-        top: 7620px;
+        top: 7780px;
         right: -4%;    
     }
     .logoimg{
@@ -1848,9 +1854,13 @@ span.smalltitle{
     }
     .resumebtn{
         text-align: center;
+        text-align: center;
+        margin-left: 0px;
     }
     .flat-heading, .section-head{
         font-size: 2.5em;
+        text-align: center;
+        margin-left: 0px;
     }
     .timeline .section-head{
         font-size: 2.5em;
@@ -1988,6 +1998,9 @@ span.smalltitle{
         padding: 15px 30px;
         margin-top: 0px;
         border: 1px solid rgba(239, 189, 235, 0.5);
+    }
+    .card .icon {
+        margin-top: -80px;
     }
 }
 
